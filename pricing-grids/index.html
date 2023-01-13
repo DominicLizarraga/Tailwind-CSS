@@ -11,10 +11,50 @@
     <!-- main container -->
     <div class="flex items-center justify-center min-h-screen bg-slate-800">
       <!-- inner container -->
-      <div class="text-white flex flex-col my-6 space-y-6 md:flex-row md:space-y-0 md:space-x-6 md:my-0">
-        <div>item</div>
-        <div>item</div>
-        <div>item</div>
+      <div class="flex flex-col my-6 space-y-6 md:flex-row md:space-y-0 md:space-x-6 md:my-0">
+        <!-- col 1 -->
+        <div class="bg-slate-700 rounded-xl text-white">
+          <!-- upper container -->
+          <div class="bg-slate-800 mt-3 mx-3 p-8 rounded-t-xl">
+            <div class="text-center uppercase">
+              Basic.  
+            </div>
+            <div class="text-center mt-10 font-serif text-5xl">
+              100 GB
+            </div>
+            <div class="mt-2 text-center">
+              $1.99/Month
+            </div>
+            <div class="flex justify-center">
+              <a href="#" class="rounded-lg my-6 px-10 py-3 text-center border border-violet-600 duration-200 hover:bg-violet-800 hover:border-violet-800">Purchase</a>
+            </div>
+          </div>
+          <!-- border -->
+          <div class="border-t border-slate-700"></div>
+          <!-- lower container -->
+          <div class="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800">
+            <!-- list cotainer -->
+            <flex class="flex-col space-y-2">
+              <!-- list items -->
+              <flex class="flex justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5 12l5 5l10 -10" />
+                </svg>
+                <span class="text-sm ml-l">100 GB of storage.</span>
+              </flex>
+            </flex>
+          </div>
+        </div>
       </div>
     </div>
   </body>
